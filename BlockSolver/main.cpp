@@ -1,3 +1,26 @@
+/**
+	Block solver
+
+	Solving block fit minigame in uniform grid.
+
+Input file:
+
+	Use argument to specify a text file with input data.
+
+	Format:
+	x y							// total size of space
+	[x*y numbers]				// 0 for free space, -1 for invalid space
+	n 							// number of blocks
+	[a b 						// dimensions of block
+	a*b numbers]				// 0 for block body, -1 otherwise ??
+
+
+Output:
+	
+	Currently only stdout output is done. At first, there is input recap, then iterations shown and there is final solution, if found. 
+*/
+
+
 #include <iostream>
 #include <string>
 
