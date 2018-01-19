@@ -5,6 +5,11 @@ I often play games, when I have some free time. These games are often simple, bu
 I will try to use only C++11, so they should be compilable under different OS, but I use linux and g++, so you probably need to create a new project from source under Windows (Visual Studio).
 
 
+## Sudoku
+
+Simple solver for sudoku game. If I get back to it again, I'll try different method and maybe compare them in terms of speed.
+Method: Backtracking
+
 ## BlockSolver - WIP
 
 Solver for a game, where goal is to fit a set of blocks into a space. Game space is in format of uniform integer grid.
